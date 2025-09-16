@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Budget Calculator App</h1>
+
+        <div class="input-section">
+            <label for="amount">Enter Amount to Manage</label>
+            <input type="number" id="amount" value="100000">
+        </div>
+
+        <h2>How would you like to divide your money?</h2>
+
+        <div class="percentage-inputs">
+            <div class="percentage-item">
+                <label for="roomRentPct">Room Rent(%)</label>
+                <input type="number" id="roomRentPct" value="10">
+            </div>
+            <div class="percentage-item">
+                <label for="accessoriesPct">Accessories(%)</label>
+                <input type="number" id="accessoriesPct" value="40">
+            </div>
+            <div class="percentage-item">
+                <label for="emergencyPct">Emergency(%)</label>
+                <input type="number" id="emergencyPct" value="20">
+            </div>
+            <div class="percentage-item">
+                <label for="savingPct">Saving(%)</label>
+                <input type="number" id="savingPct" value="30">
+            </div>
+        </div>
+
+        <button id="evaluateBtn">Evaluate My Money</button>
+
+        <div class="results-section">
+            <div class="result-item">
+                <p>Room Rent</p>
+                <p id="roomRentAmt" class="amount-display">Rs.0.00</p>
+            </div>
+            <div class="result-item">
+                <p>Accessories</p>
+                <p id="accessoriesAmt" class="amount-display">Rs.0.00</p>
+            </div>
+            <div class="result-item">
+                <p>Emergency</p>
+                <p id="emergencyAmt" class="amount-display">Rs.0.00</p>
+            </div>
+            <div class="result-item">
+                <p>Saving</p>
+                <p id="savingAmt" class="amount-display">Rs.0.00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
