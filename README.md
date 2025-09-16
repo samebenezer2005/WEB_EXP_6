@@ -70,37 +70,6 @@ BMI-Calculator-App/
 │── script.js      # BMI calculation logic
 │── README.md      # Documentation
 
-🏷️ Example
-
-Weight = 70 kg
-
-Height = 1.75 m (175 cm)
-
-𝐵
-𝑀
-𝐼
-=
-70
-1.75
-2
-=
-22.9
- 
-(
-Normal weight
-)
-BMI=
-1.75
-2
-70
-	​
-
-=22.9(Normal weight)
-📌 Future Improvements
-
-Add unit conversion (kg ↔ lbs, cm ↔ ft).
-
-Store BMI history for users.
 
 Add charts/graphs for better visualization.
 
